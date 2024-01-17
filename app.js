@@ -10,7 +10,7 @@ app.use(cors());
 
 app.use(express.json());
 
-const mongoUrl = "mongodb://localhost:27017/";
+const mongoUrl = "mongodb://localhost:27017/"; /*Menggunakan MongoCompass yang lebih baik daripada mongoatlas*/
 
 const JWT_SECRET = "hvdvay6ert72839289()aiyg8t87qt72393293883uhefiuh78ttq3ifi78272jdsds039[]]pou89ywe";
 
